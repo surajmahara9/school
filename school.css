@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header .head {
+    width: 100%;
+    height: 50px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 20px 0px 20px black;
+}
+
+.head .scl-logo {
+    width: 80px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.head .menu {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu nav ul .list-item {
+    display: inline-block;
+    width: 110px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.menu nav ul .list-item:hover {
+    background: rgb(130, 203, 242);
+    border-radius: 15px 0 15px 0;
+}
+
+.menu nav ul .list-link {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+.menu nav ul .list-link:hover {
+    color: black;
+}
+
+section .scl-pic-box {
+    margin: 40px auto;
+    width: 90%;
+    height: 500px;
+    border: 1px solid black;
+    background: url("Image/scl-pic.jpg");
+    background-size: contain;
+    background-size: 100% 500px;
+
+}
+
+.scl-pic-box .welcome-box {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 256, 0.6);
+
+}
+
+.wel-name {
+    padding-top: 70px;
+    font-size: 50px;
+    color: yellow;
+    text-align: center;
+}
+
+.scl-name {
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    font-family: serif;
+}
+
+.sologan-1 {
+    font-size: 15px;
+    color: #ccc;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sologan-2 {
+    font-size: 25px;
+    color: yellow;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.apply-btn {
+    width: 12%;
+    height: 37px;
+    background: yellow;
+    border: none;
+    text-align: center;
+    margin: 60px 45%;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.About {
+    width: 100%;
+    height: 900px;
+    padding-top: 70px;
+}
+
+.about-box {
+    width: 90%;
+    height: 650px;
+    background: gray;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about-box .about-text {
+    font-size: 35px;
+    text-align: center;
+}
+
+.scl-about-pic {
+    width: 40%;
+    height: 80%;
+    margin: 5% 2%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px black;
+
+}
+
+.about-text-1 {
+    margin-top: -530px;
+    font-size: 18px;
+    padding-left: 46%;
+    text-align: justify;
+    margin-right: 2%;
+    line-height: 1;
+    color: rgb(229, 229, 229);
+
+}
+
+.about-text-2 {
+    padding-left: 46%;
+    font-size: 18px;
+    text-align: justify;
+    margin-right: 2%;
+    line-height: 1;
+    color: rgb(229, 229, 229);
+}
+
+.about-text-3 {
+    font-size: 18px;
+    padding-left: 46%;
+    text-align: justify;
+    margin-right: 2%;
+    line-height: 1;
+    color: rgb(229, 229, 229);
+}
+
+.Addmission {
+    width: 100%;
+    height: 900px;
+    margin-top: -130px;
+    padding-top: 20px;
+}
+
+.addmission-box {
+    width: 90%;
+    height: 720px;
+    background: wheat;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+
+.addmission-name {
+    font-size: 35px;
+    text-align: center;
+}
+
+.addmission-text {
+    text-align: center;
+    padding-left: 17%;
+    padding-right: 17%;
+    font-size: 20px;
+    color: #766e6e;
+}
+
+.addmi-form {
+    width: 50%;
+    height: 450px;
+    background: #6d54a7;
+    margin: 30px 25%;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.std-name {
+    padding-top: 3%;
+    padding-left: 5%;
+    color: #ccc;
+}
+
+.inp-std-name {
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 2% 4%;
+    font-size: 17px;
+    border: none;
+}
+
+.addr-name {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #ccc;
+}
+
+.inp-addr-name {
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 2% 4%;
+    font-size: 17px;
+    border: none;
+}
+
+.cont-name {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #ccc;
+}
+
+.inp-cont-name {
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 2% 4%;
+    font-size: 17px;
+    border: none;
+}
+
+.class-name {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #ccc;
+}
+
+
+
+.class-select {
+    width: 90%;
+    height: 30px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 30px;
+    padding: 0% 4%;
+    font-size: 17px;
+    border: none;
+}
+
+.add-info-name {
+    padding-top: 2%;
+    padding-left: 5%;
+    color: #ccc;
+}
+
+.add-info-inp {
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 1% 1.5%;
+    font-size: 18px;
+    border: none;
+}
+
+.submit {
+    width: 10%;
+    height: 35px;
+    background: rgba(66, 64, 21, 0.662);
+    border-radius: 15px;
+    font-size: 18px;
+    border: none;
+    margin: 20px 45%;
+}
+
+.Facility {
+    width: 100%;
+    height: 900px;
+    background: #000;
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
+.facility-box {
+    width: 90%;
+    height: 800px;
+    margin: auto;
+    background: #5eb2ea;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.facility-name {
+    font-size: 35px;
+    text-align: center;
+}
+
+.Boys-hostel {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    margin:15% 30%;
+
+}
+
+.Girls-hostel {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    margin:15% 16%;
+}
+
+.Transportation {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    margin:15% 3%;
+}
+
+.Library {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+    margin:-10% 30%;
+}
+
+.Science-Lab {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+     margin:-10% 16%;
+}
+
+
+.Computer-Lab {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+     margin:-10% 3%;
+}
+
+.Audio-Visual-Class {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+     margin:15% 30%;
+}
+
+.Seminar-Hall {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+     margin:15% 16%;
+}
+
+.ECA {
+    background: white;
+    padding: 25px;
+    width: 65%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: .3s;
+     margin:15% 3%;
+}
