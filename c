@@ -10,55 +10,97 @@ body {
   height: 100%;
 }
 
-.head{
+header .head {
   width: 100%;
   height: 50px;
   background: green;
-  position: relative;
-
-  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 20px 0px 20px black;
 }
 
-.scl-logo{
-  position: absolute;
-  width: 5%;
-  height: 100%;
-  border-radius:5px;
-  left: 5%;
-}
-.menu{
-  position: absolute;
-  width:50%;
+.head .scl-logo {
+  width: 80px;
   height: 50px;
-  left: 45%;
+  margin-left: 30px;
 }
 
-ul{
+.head .menu {
+width: 80%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu ul {
   list-style: none;
 }
-.list-item{
+
+.menu nav ul .list-item {
   display: inline-block;
-  width: 15%;
+  width: 110px;
   height: 35px;
   text-align: center;
-  margin-top: 8px;
-  padding-top: 6px;
-}
+  padding-top: 5px;
+ }
 
-.list-link{
-  color: white;
-  text-decoration: none;
-  font-size:20px;
+ /* ===== MEDIA QUERY for screens <= 768px ===== */
+@media screen and (max-width: 768px) {
+  .head .menu {
+    width: 100%; 
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+  }
 
-}
-.list-item:hover{
-  background: skyblue;
-  border-radius: 20px 0px 20px 0px;
-  cursor: pointer;
-  .list-link{
-    color: black;
+  .menu nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .menu nav ul .list-item {
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+  }
+
+  .menu nav ul .list-link {
+    font-size: 15px !important; /* smaller font for mobile */
+    color: white;
+    text-decoration: none;
+  }
+
+  body {
+    background: #000; /* optional mobile background */
   }
 }
+
+
+.menu nav ul .list-item:hover {
+  background: rgb(130, 203, 242);
+  border-radius: 15px 0 15px 0;
+}
+
+.menu nav ul .list-link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.menu nav ul .list-link:hover {
+  color: black;
+}
+
 section .scl-pic-box {
   margin: 40px auto;
   width: 90%;
@@ -67,7 +109,7 @@ section .scl-pic-box {
   background: url("Image/scl-pic.jpg");
   background-size: contain;
   background-size: 100% 500px;
- 
+  overflow: hidden;
 }
 
 .scl-pic-box .welcome-box {
@@ -105,14 +147,14 @@ section .scl-pic-box {
 }
 
 .apply-btn {
-  width: 10%;
+  width: 12%;
   height: 37px;
   background: yellow;
   border: none;
   text-align: center;
   margin: 60px 45%;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 17px;
   border-radius: 20px;
   padding: 5px 10px;
   cursor: pointer;
@@ -614,7 +656,7 @@ section .scl-pic-box {
  width: 90%;
   height: 900px;
   background: #423f3e;
-   margin: -35px auto;
+   margin: -30px auto;
      display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -622,43 +664,4 @@ section .scl-pic-box {
 .prog-name{
      font-size: 35px;
   text-align: center;
-}
-.one{
-  background: white;
-  padding: 25px;
-  width: 65%;
-  height: 180px;
-  position: relative;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  margin: 30% 16%;
-  box-shadow: 10px 10px 25px black;
-
-}
-.two{
-  background: white;
-  padding: 25px;
-  width: 65%;
-  height: 180px;
-  position: relative;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  margin:-55% 16%;
-  box-shadow: 10px 10px 25px black;
-
-}
-.three{
-  background: white;
-  padding: 25px;
-  width: 65%;
-  height: 180px;
-  position: relative;
-  border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  transition: 0.3s;
-  margin:-35% 16%;
-  box-shadow: 10px 10px 25px black;
-
 }
