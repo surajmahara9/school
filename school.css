@@ -111,7 +111,7 @@ section .scl-pic-box {
   background: yellow;
   border: none;
   text-align: center;
-  margin: 60px 45%;
+  margin: 45px 45%;
   font-weight: bold;
   font-size: 14px;
   border-radius: 20px;
@@ -119,7 +119,7 @@ section .scl-pic-box {
   cursor: pointer;
 }
 
-.About {
+#About {
   width: 100%;
   height: 900px;
   padding-top: 70px;
@@ -147,8 +147,8 @@ section .scl-pic-box {
 }
 
 .about-text-1 {
-  margin-top: -550px;
-  font-size: 18px;
+  margin-top:-43%;
+  font-size: 17px;
   padding-left: 48%;
   text-align: justify;
   margin-right: 3%;
@@ -158,7 +158,7 @@ section .scl-pic-box {
 
 .about-text-2 {
   padding-left: 48%;
-  font-size: 18px;
+  font-size: 17px;
   text-align: justify;
   margin-right: 2%;
    line-height: 0.92;
@@ -166,7 +166,7 @@ section .scl-pic-box {
 }
 
 .about-text-3 {
-  font-size: 18px;
+  font-size: 17px;
   padding-left: 48%;
   text-align: justify;
   margin-right: 2%;
@@ -174,7 +174,7 @@ section .scl-pic-box {
   color: rgb(229, 229, 229);
 }
 
-.Addmission {
+#Addmission {
   width: 100%;
   height: 900px;
   margin-top: -130px;
@@ -185,8 +185,7 @@ section .scl-pic-box {
   width: 90%;
   height: 720px;
   background: rgb(238, 223, 197);
-  margin-top: 60px;
-  margin-left: 70px;
+  margin: 50px auto;
 }
 
 .addmission-name {
@@ -307,7 +306,7 @@ section .scl-pic-box {
   cursor: pointer;
 }
 
-.Facility {
+#Facility {
   width: 100%;
   height: 1100px;
   padding-top: 50px;
@@ -597,6 +596,30 @@ section .scl-pic-box {
   box-shadow: 10px 10px 25px black;
 }
 
+.semi-hall-icon {
+  position: absolute;
+  font-size: 50px;
+  padding: 4% 28%;
+  cursor: pointer;
+}
+
+
+.semi-name {
+  position: absolute;
+  margin: 26% 18%;
+  font-size: 22px;
+  color: rgb(96, 96, 244);
+  cursor: pointer;
+  text-align: center;
+}
+.semi-text {
+  position: absolute;
+  font-size: 13px;
+  color: #949393;
+  text-align: justify;
+  margin: 35.5% 10% 1% 1%;
+  line-height: 1;
+}
 .ECA {
   background: white;
   padding: 25px;
@@ -610,7 +633,30 @@ section .scl-pic-box {
   box-shadow: 10px 10px 25px black;
 }
 
-.Program {
+.eca-icon {
+  position: absolute;
+  font-size: 50px;
+  padding: 4% 28%;
+  cursor: pointer;
+}
+.eca-name {
+  position: absolute;
+  margin: 26% 27%;
+  font-size: 22px;
+  color: rgb(96, 96, 244);
+  cursor: pointer;
+  text-align: center;
+}
+
+.eca-text {
+  position: absolute;
+  font-size: 13px;
+  color: #949393;
+  text-align: justify;
+  margin: 35.5% 10% 1% 1%;
+   line-height: 0.9;
+}
+#Program {
   width: 100%;
   height: 750px;
   padding-top: 70px;
@@ -629,6 +675,7 @@ section .scl-pic-box {
 .prog-name{
      font-size: 35px;
   text-align: center;
+  color: white;
 }
 .PG,.BL,.ML{
   background: white;
@@ -648,8 +695,8 @@ section .scl-pic-box {
 }
 .pg-text,.bl-text,.ml-text,.sl-text,.sci-text,.man-text{
    text-align: center;
-    font-size: 18px;
-    padding-top: 20px;
+    font-size: 17px;
+    padding-top: 18px;
     line-height: 1;
     color: #3e3434;
 }
@@ -665,30 +712,29 @@ section .scl-pic-box {
     box-shadow: 8px 8px 15px #7a7878;
 }
 
-.Contact{
+#Contact{
   width:100%;
-  height: 600px;
-  background:yellow;
+  height: 610px;
   margin-top: 40px;
   padding-top: 60px;
 }
   .contact-box{
     width: 90%;
-    height: 500px;
+    height: 550px;
     background: #222121;
     margin:0px auto;
     position: relative;
   
 }
-.cont-name{
+.contact-name{
   text-align: center;
   padding: 0px;
   font-size: 35px;
+  color: white;
 }
 .cont-detail{
   width: 50%;
   height: 350px;
-  border: 1px solid wheat;
   position: absolute;
   top: 20%;
   left: 2%;
@@ -704,27 +750,39 @@ section .scl-pic-box {
   border-radius: 30px;
 }
 .cont-info{
-padding-left: 35%;
-  color: white;
+padding-left: 20%;
+  color:#ccc;
+  font-size: 30px;
   padding-bottom: 40px;
 }
 .name,.add,.phone,.email{
-  color:white;
+  color:#ccc;
   font-size: 20px;
   padding-top:2%;
   padding-left:5%;
 }
 .follow{
-   color:white;
+   color:#ccc;
   font-size: 20px;
   padding-top:2%;
   padding-left:5%;
 }
 .fb{
-  color:white;
+  color:#ccc;
   cursor: pointer;
   font-size: 35px;
     padding-left:2%;
     padding-top:-15%;
 margin-top: 5%;
+}
+hr{
+  width: 100%;
+  margin-top:460px;
+ 
+}
+.dev-name{
+  color: #ccc;
+  margin-left: 30%;
+  margin-top: 0.3%;
+  font-size: 25px;
 }
